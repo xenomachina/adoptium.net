@@ -27,7 +27,7 @@ The following name schema is being used:
 
 ....
 temurin-<version>-jdk
-e.g temurin-17-jdk or temurin-8-jdk
+e.g temurin-21-jdk or temurin-8-jdk
 ....
 
 == Deb installation on Debian or Ubuntu
@@ -59,7 +59,7 @@ TIP: For Linux Mint (based on Ubuntu) you have to replace `VERSION_CODENAME` wit
 [source, bash]
 ----
 apt update # update if you haven't already
-apt install temurin-17-jdk
+apt install temurin-21-jdk
 ----
 
 == CentOS/RHEL/Fedora Instructions
@@ -85,13 +85,13 @@ EOF
 +
 [source, bash]
 ----
-dnf install temurin-17-jdk
+dnf install temurin-21-jdk
 ----
 Alternatively, if you are using `yum`:
 +
 [source, bash]
 ----
-yum install temurin-17-jdk
+yum install temurin-21-jdk
 ----
 
 == openSUSE/SLES Instructions
@@ -108,7 +108,7 @@ zypper ar -f https://packages.adoptium.net/artifactory/rpm/opensuse/$(. /etc/os-
 +
 [source, bash]
 ----
-zypper install temurin-17-jdk
+zypper install temurin-21-jdk
 ----
 
 
@@ -132,7 +132,7 @@ echo 'https://packages.adoptium.net/artifactory/apk/alpine/main' >> /etc/apk/rep
 +
 [source, bash]
 ----
-apk add temurin-17-jdk
+apk add temurin-21-jdk
 ----
 
 Please raise any issues over at
